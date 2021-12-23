@@ -1,0 +1,28 @@
+#!/usr/bin/env streamflow
+version: v1.0
+workflows:
+  master:
+    type: cwl
+    config:
+      file: setting/testTimeSIMLR.cwl
+      settings: setting/config.yml
+    bindings:
+      - step: /
+        target:
+          model: ssh-model
+models:
+  ssh-model:
+    type: ssh
+    config:
+      nodes:
+        - worker1
+        - worker2
+        - worker3
+        - worker4
+        - worker5
+        - worker6
+        - worker7
+      username: ubuntu
+      sshKey: /home/ubuntu/.ssh/id_rsa
+      maxConcurrentSessions: 8
+
