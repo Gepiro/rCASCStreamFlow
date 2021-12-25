@@ -1,0 +1,1 @@
+docker build ./Container -t repbioinfo/permutationclusteringsw
