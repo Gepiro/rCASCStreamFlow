@@ -6,10 +6,10 @@ else
   mkdir ResultsWorkflow
 fi
 
-now=$(date +"%T")
+now=$(date)
 echo "Start time : $now" >| time.txt
 
-streamflow testTime.yml --outdir ResultsWorkflow
+streamflow run testTime.yml --outdir ResultsWorkflow
 
-now=$(date +"%T")
+now=$(date)
 echo "End time : $now" >> time.txt
