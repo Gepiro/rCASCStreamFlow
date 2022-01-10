@@ -1,0 +1,7 @@
+Start time : 14:51:00
+End time : 09:56:12
+
+giorno partenza: 24 dicembre
+giorno fine: 25 dicembre
+
+permutationZero/Final: 3 h
