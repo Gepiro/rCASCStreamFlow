@@ -6,7 +6,7 @@ requirements:
 inputs:
   fileRPermutationP: File
   skeletonPermutationP: File
-  index_prova: string[]
+  index_array: string[]
   matrix: File
   nCluster: File
 outputs: 
