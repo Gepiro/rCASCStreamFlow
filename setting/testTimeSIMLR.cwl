@@ -29,6 +29,6 @@ steps:
       fileRPermutationP: fileRPermutationP
       mtxTopX: matrix
       skeleton: skeletonPermutationP
-      index: index_prova
+      index: index_array
       nCluster: nCluster
     out: [mtxKilledCell, mtxPermutationP] 
